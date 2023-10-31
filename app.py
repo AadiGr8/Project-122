@@ -70,7 +70,7 @@ def bot():
             "bot_response": bot_res
         }
 
-    return jsonify(response)
+    return jsonify(response)     
      
 if __name__ == '__main__':
     app.run(debug=True)
